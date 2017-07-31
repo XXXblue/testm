@@ -22,6 +22,12 @@ public class HomeController {
     public  String index(){
         //输出日志文件
        logger.info("the first jsp pages");
+
+
+
+
+
+
         return "home";
     }
 }
