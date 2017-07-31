@@ -21,8 +21,7 @@ public class HomeController {
     @RequestMapping("/index")
     public  String index(){
         //输出日志文件
-//        logger.info("the first jsp pages");
-        //返回一个index.jsp这个视图
+       logger.info("the first jsp pages");
         return "home";
     }
 }
